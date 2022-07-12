@@ -217,9 +217,22 @@ li > .spacial-heading {
         line-height: 1.71;
         letter-spacing: 0.03em;
 }
-   
+.spacial-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 25px 0;
+    border-radius: 4px;
+    background: var(--medium-bg-color);
+ 
+}
 
-.main__thing{
+.spacial-img-item {
+   
+}
+
+.main__thing, .clients {
     width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -228,7 +241,7 @@ li > .spacial-heading {
     margin-bottom: 94px;
 }
    
-.main-header{
+.main-header, .friends-clients{
     font-size: 36px;
     font-weight: 700;
     color: var(--header-color);
@@ -252,7 +265,7 @@ padding-bottom: 94px;
 }
 
 .photo, 
-.photo__team {
+.photo__team, .clients-list {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -362,6 +375,27 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     height: 1em;
     overflow: visible;
     vertical-align: -.125em;
+}
+
+.clients{
+    padding-top: 94px;
+
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+    border: 1px var(--team-social-color solid);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+}
+
+.clients-item:hover, .clients-item:focus {
+    color: var(--accent-color);
 }
 
 .bottom{
