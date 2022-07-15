@@ -44,15 +44,15 @@ body {
 /*header*/
 
 .header-content{
-    max-width: 1170px;
-    margin: 0 auto;
+   
     padding-top: 24px;
     padding-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px;
+    border: 1px solid;
     border-color:#ECECEC;
+    
 }
 
 /*navigation*/
@@ -82,11 +82,16 @@ display: flex;
 margin-left: 93px;
 font-weight: 500;
 font-size: 14px;
+
 }
 
 /*header-menu*/
 .header-menu li{
     margin-right: 50px;
+}
+
+.header-menu li:last-child, .header-contacts li:last-child {
+    margin-right: 0px;
 }
 
 .header-menu a {
@@ -192,10 +197,9 @@ li > .link-active, .header-menu a:hover, .header-menu a:focus{
 }
 
 /*list*/
-.spacials {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding-top: 94px;
+.section {
+    margin-top: 94px;
+    margin-bottom: 94px;
 } 
 
 /*hidden chapter*/
@@ -222,7 +226,6 @@ li > .link-active, .header-menu a:hover, .header-menu a:focus{
 .spacial {
     width: 270px;
     font-size: 14px;
-    margin-bottom: 94px;
 }
 
 li > .spacial-heading {
@@ -240,12 +243,10 @@ li > .spacial-heading {
 
 /*new*/
 .main-thing{
-    width: 1170px;
-    margin: 0 auto;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 94px;
 }
 
 
@@ -278,7 +279,6 @@ font-weight: 500;
 font-size: 16px;
 color: #000;
 margin-right: 8px;
-margin-top: 94px;
 padding: 6px 22px;
 cursor: pointer;
 font-family: var(--main-font-family);
@@ -296,8 +296,7 @@ transition: all 0.3s ease;
 /*portfolio-img-list*/
 
 .portfolio-photo {
-    width: 1170px;
-    margin: 0 auto;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -352,11 +351,9 @@ transition: all 0.3s ease;
 
 .main-team {
 background-color: var(--medium-bg-color);
-padding-top: 94px;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding-bottom: 94px;
 }
 
 .photo, 
@@ -390,8 +387,12 @@ padding-bottom: 94px;
 
 /*main-team*/
 
-.photo-team{
-   width: 1170px;
+.container{
+   width: 1230px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .team-item {
@@ -455,17 +456,6 @@ padding-bottom: 94px;
 .bottom{
     background-color: var(--dark-bg-color);
     padding-top: 60px;
-}
-.bottom-container {
-    width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    align-items: flex-start;
-}
-
-.container-footer {
-width: 1170px;
-margin: auto;
 }
 
 /*logo-footer*/
