@@ -56,6 +56,7 @@ body {
     justify-content: space-between;
     
 }
+
 /*navigation*/
 
 nav{
@@ -253,10 +254,6 @@ li > .spacial-heading {
 
 
 /*portfolio-nav-menu*/
-
-.list-button, .portfolio-class{
-    margin-bottom: 64px;
-}
  
 .buttons{
      display: flex;
