@@ -44,17 +44,18 @@ body {
 /*header*/
 
 .header-content{
-   
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid;
+    border-color:#ECECEC;
+}
+
+.flexbox{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid;
-    border-color:#ECECEC;
     
 }
-
 /*navigation*/
 
 nav{
