@@ -50,7 +50,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid;
+    border-bottom: 1px solid;
     border-color:#ECECEC;
     
 }
@@ -143,7 +143,8 @@ li > .link-active, .header-menu a:hover, .header-menu a:focus{
 
 /*banner*/
 .banner {
-    height: 600px;
+    padding-top: 200px;    
+    padding-bottom: 200px;
     background-color: var(--dark-bg-color);
     display: flex;
     flex-direction: column;
@@ -198,8 +199,8 @@ li > .link-active, .header-menu a:hover, .header-menu a:focus{
 
 /*list*/
 .section {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 } 
 
 /*hidden chapter*/
@@ -347,6 +348,7 @@ transition: all 0.3s ease;
     color: var(--header-color);
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .main-team {
@@ -388,7 +390,7 @@ align-items: center;
 /*main-team*/
 
 .container{
-   width: 1230px;
+   width: 1200px;
    padding-left: 15px;
    padding-right: 15px;
    margin-left: auto;
@@ -404,6 +406,7 @@ align-items: center;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     transition: all 0.3s ease;
+    background-color: var(--main-bg-color);;
 }
 
 .team-item:hover {
@@ -461,7 +464,6 @@ align-items: center;
 /*logo-footer*/
 
 .logo, .bottom {
-    margin-bottom: 20px;
     display: block;
     color: var(--main-bg-color);
 
